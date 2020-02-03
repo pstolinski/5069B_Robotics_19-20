@@ -239,6 +239,15 @@ void autonomous() {
 	// pros::delay(1000);
 	// IntakeLiftL.move_velocity(0);
 	// IntakeLiftR.move_velocity(0);
+	// 	• Extend intake
+	// • Go forward while moving in intake
+	// • Keep the intake moving after the bot stops moving forward
+	// • Intake lock?
+	// • Go backward (amount of shaft rotations)
+	// • 90 degree turn to the left
+	// • Any turns necessary to come at the corner correctly
+	// • Once aligned with the corner push the ramp forward
+  // Drive backward a small amount
 	DriveTrainL.move_absolute(715, 127);
 	DriveTrainR.move_absolute(715, 127);
 	pros::delay(1600);
